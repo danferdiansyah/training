@@ -33,6 +33,6 @@ while True:
     elif scorefin<0:
         print("Nilai yang anda masukkan invalid")
     if (input("Ulangi program? (Y/N) "))!="Y":
-        break
+        continue
     elif 0<scorefin<100:
         break
