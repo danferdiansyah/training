@@ -3,15 +3,15 @@ def scoreconv():
     scorefin=int(score)
     if scorefin>100:
         print("Nilai yang anda masukkan invalid")
-    elif scorefin>85:
+    elif 100>scorefin>85:
         print("Grade anda adalah A")
-    elif scorefin>80:
+    elif 85>scorefin>80:
         print("Grade anda adalah A-")
-    elif scorefin>75:
+    elif 80>scorefin>75:
         print("Grade anda adalah B")
-    elif scorefin>70:
+    elif 75>scorefin>70:
         print("Grade anda adalah B-")
-    elif scorefin<70:
+    elif 0<scorefin<70:
         print("Anda harus mengulang")
     elif scorefin<0:
         print("Nilai yang anda masukkan invalid")
